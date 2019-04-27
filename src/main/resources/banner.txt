@@ -1,0 +1,2 @@
+${AnsiColor.BRIGHT_BLUE}:: Coolybot 🤓  :: Running Spring Boot ${spring-boot.version} ::
+:: https://www.coolybot.tech ::${AnsiColor.DEFAULT}
