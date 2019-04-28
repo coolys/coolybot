@@ -22,7 +22,7 @@ import io.github.bucket4j.*;
 import io.github.bucket4j.grid.GridBucketState;
 import io.github.bucket4j.grid.ProxyManager;
 import io.github.bucket4j.grid.jcache.JCache;
-import io.github.coolybot.config.CoolybotProperties;
+import io.github.coolys.config.CoolybotProperties;
 
 /**
  * Zuul filter for limiting the number of HTTP calls per client.

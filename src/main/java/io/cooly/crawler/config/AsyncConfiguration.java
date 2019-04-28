@@ -1,7 +1,7 @@
 package io.cooly.crawler.config;
 
-import io.github.coolybot.async.ExceptionHandlingAsyncTaskExecutor;
-import io.github.coolybot.config.CoolybotProperties;
+import io.github.coolys.async.ExceptionHandlingAsyncTaskExecutor;
+import io.github.coolys.config.CoolybotProperties;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;

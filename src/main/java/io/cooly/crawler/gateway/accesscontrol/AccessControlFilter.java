@@ -1,6 +1,6 @@
 package io.cooly.crawler.gateway.accesscontrol;
 
-import io.github.coolybot.config.CoolybotProperties;
+import io.github.coolys.config.CoolybotProperties;
 
 import java.util.List;
 import java.util.Map;

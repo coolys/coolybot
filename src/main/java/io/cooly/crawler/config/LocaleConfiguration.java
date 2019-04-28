@@ -1,6 +1,6 @@
 package io.cooly.crawler.config;
 
-import io.github.coolybot.config.locale.AngularCookieLocaleResolver;
+import io.github.coolys.config.locale.AngularCookieLocaleResolver;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;

@@ -1,6 +1,6 @@
 package io.cooly.crawler.aop.logging;
 
-import io.github.coolybot.config.CoolybotConstants;
+import io.github.coolys.config.CoolybotConstants;
 
 import org.aspectj.lang.JoinPoint;
 import org.aspectj.lang.ProceedingJoinPoint;

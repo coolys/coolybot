@@ -1,7 +1,7 @@
 package io.cooly.crawler.security.oauth2;
 
 import io.cooly.crawler.config.oauth2.OAuth2Properties;
-import io.github.coolybot.config.CoolybotProperties;
+import io.github.coolys.config.CoolybotProperties;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.http.HttpEntity;

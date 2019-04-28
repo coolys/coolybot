@@ -3,7 +3,7 @@ package io.cooly.crawler.config;
 import java.net.InetSocketAddress;
 import java.util.Iterator;
 
-import io.github.coolybot.config.CoolybotProperties;
+import io.github.coolys.config.CoolybotProperties;
 
 import ch.qos.logback.classic.AsyncAppender;
 import ch.qos.logback.classic.Level;

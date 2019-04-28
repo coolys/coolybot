@@ -2,7 +2,7 @@ import React from 'react';
 import { connect } from 'react-redux';
 import { RouteComponentProps } from 'react-router';
 import { Input, Row, Table } from 'reactstrap';
-import { TextFormat, JhiPagination, getPaginationItemsNumber, getSortState, IPaginationBaseState } from 'react-coolybot';
+import { TextFormat, ClbPagination, getPaginationItemsNumber, getSortState, IPaginationBaseState } from 'react-coolybot';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 import { APP_TIMESTAMP_FORMAT } from 'app/config/constants';
@@ -128,7 +128,7 @@ export class AuditsPage extends React.Component<IAuditsPageProps, IAuditsPageSta
           </tbody>
         </Table>
         <Row className="justify-content-center">
-          <JhiPagination
+          <ClbPagination
             items={getPaginationItemsNumber(totalItems, this.state.itemsPerPage)}
             activePage={this.state.activePage}
             onSelect={this.handlePagination}

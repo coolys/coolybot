@@ -16,7 +16,7 @@
 logging:
     level:
         ROOT: DEBUG
-        io.github.coolybot: DEBUG
+        io.github.coolys: DEBUG
         io.cooly.crawler: DEBUG
 
 eureka:
@@ -98,7 +98,7 @@ coolybot:
     # CORS is only enabled by default with the "dev" profile, so BrowserSync can access the API
     cors:
         allowed-origins: "*"
-        allowed-methods: "*"
+      Jhi  allowed-methods: "*"
         allowed-headers: "*"
         exposed-headers: "Authorization,Link,X-Total-Count"
         allow-credentials: true

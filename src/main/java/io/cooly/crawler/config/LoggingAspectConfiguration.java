@@ -2,7 +2,7 @@ package io.cooly.crawler.config;
 
 import io.cooly.crawler.aop.logging.LoggingAspect;
 
-import io.github.coolybot.config.CoolybotConstants;
+import io.github.coolys.config.CoolybotConstants;
 
 import org.springframework.context.annotation.*;
 import org.springframework.core.env.Environment;

@@ -1,6 +1,6 @@
 package io.cooly.crawler.config;
 
-import io.github.coolybot.config.CoolybotProperties;
+import io.github.coolys.config.CoolybotProperties;
 
 import io.cooly.crawler.gateway.ratelimiting.RateLimitingFilter;
 import io.cooly.crawler.gateway.accesscontrol.AccessControlFilter;

@@ -1,8 +1,8 @@
 package io.cooly.crawler.config;
 
-import io.github.coolybot.config.CoolybotConstants;
-import io.github.coolybot.config.CoolybotProperties;
-import io.github.coolybot.web.filter.CachingHttpHeadersFilter;
+import io.github.coolys.config.CoolybotConstants;
+import io.github.coolys.config.CoolybotProperties;
+import io.github.coolys.web.filter.CachingHttpHeadersFilter;
 import io.undertow.UndertowOptions;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;

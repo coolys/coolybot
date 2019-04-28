@@ -6,7 +6,7 @@
 
     <logger name="io.cooly.crawler" level="INFO"/>
 
-    <logger name="io.github.coolybot" level="WARN"/>
+    <logger name="io.github.coolys" level="WARN"/>
 
     <logger name="javax.activation" level="WARN"/>
     <logger name="javax.mail" level="WARN"/>

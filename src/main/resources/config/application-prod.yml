@@ -17,7 +17,7 @@ logging:
     level:
         ROOT: INFO
         io.cooly.crawler: INFO
-        io.github.coolybot: INFO
+        io.github.coolys: INFO
 
 eureka:
     instance:

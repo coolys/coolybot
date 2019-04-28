@@ -1,7 +1,7 @@
 package io.cooly.crawler.security.oauth2;
 
 import io.cooly.crawler.web.rest.errors.InvalidPasswordException;
-import io.github.coolybot.security.PersistentTokenCache;
+import io.github.coolys.security.PersistentTokenCache;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.http.ResponseEntity;

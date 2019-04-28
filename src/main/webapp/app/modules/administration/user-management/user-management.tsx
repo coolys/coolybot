@@ -6,7 +6,7 @@ import {
   ICrudGetAllAction,
   ICrudPutAction,
   TextFormat,
-  JhiPagination,
+  ClbPagination,
   getPaginationItemsNumber,
   getSortState,
   IPaginationBaseState
@@ -72,24 +72,30 @@ export class UserManagement extends React.Component<IUserManagementProps, IPagin
           <thead>
             <tr>
               <th className="hand" onClick={this.sort('id')}>
-                ID<FontAwesomeIcon icon="sort" />
+                ID
+                <FontAwesomeIcon icon="sort" />
               </th>
               <th className="hand" onClick={this.sort('login')}>
-                Login<FontAwesomeIcon icon="sort" />
+                Login
+                <FontAwesomeIcon icon="sort" />
               </th>
               <th className="hand" onClick={this.sort('email')}>
-                Email<FontAwesomeIcon icon="sort" />
+                Email
+                <FontAwesomeIcon icon="sort" />
               </th>
               <th />
               <th>Profiles</th>
               <th className="hand" onClick={this.sort('createdDate')}>
-                Created Date<FontAwesomeIcon icon="sort" />
+                Created Date
+                <FontAwesomeIcon icon="sort" />
               </th>
               <th className="hand" onClick={this.sort('lastModifiedBy')}>
-                Last Modified By<FontAwesomeIcon icon="sort" />
+                Last Modified By
+                <FontAwesomeIcon icon="sort" />
               </th>
               <th id="modified-date-sort" className="hand" onClick={this.sort('lastModifiedDate')}>
-                Last Modified Date<FontAwesomeIcon icon="sort" />
+                Last Modified Date
+                <FontAwesomeIcon icon="sort" />
               </th>
               <th />
             </tr>
@@ -155,7 +161,7 @@ export class UserManagement extends React.Component<IUserManagementProps, IPagin
           </tbody>
         </Table>
         <Row className="justify-content-center">
-          <JhiPagination
+          <ClbPagination
             items={getPaginationItemsNumber(totalItems, this.state.itemsPerPage)}
             activePage={this.state.activePage}
             onSelect={this.handlePagination}

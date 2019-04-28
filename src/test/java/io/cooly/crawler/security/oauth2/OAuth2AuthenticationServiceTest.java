@@ -3,7 +3,7 @@ package io.cooly.crawler.security.oauth2;
 import io.cooly.crawler.config.oauth2.OAuth2Properties;
 import io.cooly.crawler.web.filter.RefreshTokenFilter;
 import io.cooly.crawler.web.rest.errors.InvalidPasswordException;
-import io.github.coolybot.config.CoolybotProperties;
+import io.github.coolys.config.CoolybotProperties;
 import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Rule;

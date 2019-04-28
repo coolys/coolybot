@@ -3,7 +3,7 @@ package io.cooly.crawler.config.apidoc;
 import java.util.ArrayList;
 import java.util.List;
 
-import io.github.coolybot.config.CoolybotConstants;
+import io.github.coolys.config.CoolybotConstants;
 
 import org.springframework.context.annotation.*;
 import org.springframework.cloud.netflix.zuul.filters.Route;

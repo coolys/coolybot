@@ -1,6 +1,6 @@
 package io.cooly.crawler.config;
 
-import io.github.coolybot.config.CoolybotConstants;
+import io.github.coolys.config.CoolybotConstants;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.core.env.Environment;

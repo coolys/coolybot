@@ -3,7 +3,7 @@ package io.cooly.crawler;
 import io.cooly.crawler.config.ApplicationProperties;
 import io.cooly.crawler.config.DefaultProfileUtil;
 
-import io.github.coolybot.config.CoolybotConstants;
+import io.github.coolys.config.CoolybotConstants;
 
 import org.apache.commons.lang3.StringUtils;
 import org.slf4j.Logger;

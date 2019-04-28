@@ -2,8 +2,8 @@ package io.cooly.crawler.config;
 
 import com.github.mongobee.Mongobee;
 
-import io.github.coolybot.config.CoolybotConstants;
-import io.github.coolybot.domain.util.JSR310DateConverters.*;
+import io.github.coolys.config.CoolybotConstants;
+import io.github.coolys.domain.util.JSR310DateConverters.*;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
