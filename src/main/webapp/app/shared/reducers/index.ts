@@ -11,7 +11,21 @@ import activate, { ActivateState } from 'app/modules/account/activate/activate.r
 import password, { PasswordState } from 'app/modules/account/password/password.reducer';
 import settings, { SettingsState } from 'app/modules/account/settings/settings.reducer';
 import passwordReset, { PasswordResetState } from 'app/modules/account/password-reset/password-reset.reducer';
-/* coolybot-needle-add-reducer-import - Coolybot will add reducer here */
+// prettier-ignore
+
+// prettier-ignore
+import scheduleConfig, {
+ScheduleConfigState
+} from 'app/entities/scheduler/schedule-config/schedule-config.reducer';
+// prettier-ignore
+import fetch, {
+FetchState
+} from 'app/entities/fetcher/fetch/fetch.reducer';
+// prettier-ignore
+import siteConfig, {
+SiteConfigState
+} from 'app/entities/configure/site-config/site-config.reducer';
+/* jhipster-needle-add-reducer-import - JHipster will add reducer here */
 
 export interface IRootState {
   readonly authentication: AuthenticationState;
@@ -23,7 +37,10 @@ export interface IRootState {
   readonly passwordReset: PasswordResetState;
   readonly password: PasswordState;
   readonly settings: SettingsState;
-  /* coolybot-needle-add-reducer-type - Coolybot will add reducer type here */
+  readonly siteConfig: SiteConfigState;
+  readonly scheduleConfig: ScheduleConfigState;
+  readonly fetch: FetchState;
+  /* jhipster-needle-add-reducer-type - JHipster will add reducer type here */
   readonly loadingBar: any;
 }
 
@@ -37,7 +54,10 @@ const rootReducer = combineReducers<IRootState>({
   passwordReset,
   password,
   settings,
-  /* coolybot-needle-add-reducer-combine - Coolybot will add reducer here */
+  siteConfig,
+  scheduleConfig,
+  fetch,
+  /* jhipster-needle-add-reducer-combine - JHipster will add reducer here */
   loadingBar
 });
 

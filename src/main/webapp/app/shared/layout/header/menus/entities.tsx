@@ -8,6 +8,17 @@ import { NavDropdown } from '../header-components';
 export const EntitiesMenu = props => (
   // tslint:disable-next-line:jsx-self-close
   <NavDropdown icon="th-list" name="Entities" id="entity-menu">
-    {/* coolybot-needle-add-entity-to-menu - Coolybot will add entities to the menu here */}
+    <DropdownItem tag={Link} to="/entity/site-config">
+      <FontAwesomeIcon icon="asterisk" fixedWidth />
+      &nbsp;Site Config
+    </DropdownItem>
+    <DropdownItem tag={Link} to="/entity/schedule-config">
+      <FontAwesomeIcon icon="asterisk" fixedWidth />
+      &nbsp;Schedule Config
+    </DropdownItem>
+    <DropdownItem tag={Link} to="/entity/fetch">
+      <FontAwesomeIcon icon="asterisk" fixedWidth />
+      &nbsp;Fetch
+    </DropdownItem>
   </NavDropdown>
 );
