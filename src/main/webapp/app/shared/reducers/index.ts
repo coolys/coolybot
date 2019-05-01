@@ -25,7 +25,7 @@ FetchState
 import siteConfig, {
 SiteConfigState
 } from 'app/entities/configure/site-config/site-config.reducer';
-/* jhipster-needle-add-reducer-import - JHipster will add reducer here */
+/* coolybot-needle-add-reducer-import - JHipster will add reducer here */
 
 export interface IRootState {
   readonly authentication: AuthenticationState;
@@ -40,7 +40,7 @@ export interface IRootState {
   readonly siteConfig: SiteConfigState;
   readonly scheduleConfig: ScheduleConfigState;
   readonly fetch: FetchState;
-  /* jhipster-needle-add-reducer-type - JHipster will add reducer type here */
+  /* coolybot-needle-add-reducer-type - JHipster will add reducer type here */
   readonly loadingBar: any;
 }
 
@@ -57,7 +57,7 @@ const rootReducer = combineReducers<IRootState>({
   siteConfig,
   scheduleConfig,
   fetch,
-  /* jhipster-needle-add-reducer-combine - JHipster will add reducer here */
+  /* coolybot-needle-add-reducer-combine - JHipster will add reducer here */
   loadingBar
 });
 
