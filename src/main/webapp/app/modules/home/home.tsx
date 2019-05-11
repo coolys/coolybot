@@ -21,7 +21,7 @@ export class Home extends React.Component<IHomeProp> {
     return (
       <Row>
         <Col md="9">
-          <h2>Welcome, Java Cooly!</h2>
+          <h2>Welcome, Cooly Crawler Bot!</h2>
           <p className="lead">This is your homepage</p>
           {account && account.login ? (
             <div>
@@ -82,11 +82,9 @@ export class Home extends React.Component<IHomeProp> {
             If you like Coolybot, do not forget to give us a star on{' '}
             <a href="https://github.com/coolybot/generator-coolybot" target="_blank" rel="noopener noreferrer">
               Github
-            </a>!
+            </a>
+            !
           </p>
-        </Col>
-        <Col md="3" className="pad">
-          <span className="hipster rounded" />
         </Col>
       </Row>
     );

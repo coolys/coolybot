@@ -41,6 +41,10 @@ module.exports = (options) => webpackMerge(commonConfig({ env: ENV }), {
         '/authservice',
          '/scheduler',
          '/fetcher',
+         '/configurer',
+         '/indexer',
+         '/parser',
+         '/fetcher',
         /* coolybot-needle-add-entity-to-webpack - Coolybot will add entity api paths here */
         '/api',
         '/management',
